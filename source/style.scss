@@ -1,1 +1,12 @@
 @import './bootstrap-sass/bootstrap.scss';
+
+// imoort własnych styli 
+@import 'custom/base/variables';
+@import 'custom/base/mixins';
+@import 'custom/base/typography';
+
+@import 'custom/components/components';
+@import 'custom/pages/pages';
+// @import 'custom/base/variables'; 
+
+
