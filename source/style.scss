@@ -1,7 +1,11 @@
+// własne zmienne kolorów przed bootstrap żeby bootstrap ich nie nadpisał bo mamy takie same nazwy jak w bootstrapie
+@import 'custom/base/variables';
+
+// import bootstrap
 @import './bootstrap-sass/bootstrap.scss';
 
 // imoort własnych styli 
-@import 'custom/base/variables';
+
 @import 'custom/base/mixins';
 @import 'custom/base/typography';
 

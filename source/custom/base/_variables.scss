@@ -1,0 +1,47 @@
+// włąsne zmienne - kolory do projektu
+$pw-accent-color: #BE8C6B;
+$pw-gray-100: #F8F8F8;
+$pw-gray-200: #EEEEEE;
+$pw-gray-600: #B7B7B7;
+$pw-gray-800: #707070;
+$pw-gray-900: #444444;
+$pw-white: #FFFFFF;
+$pw-black: #000000;
+$pw-input-bg: #FCFCFC;
+$pw-input-border-color: darken($pw-gray-200, 3%);
+$pw-contact-form-shadow: #292C31;
+$pw-product-search-btn-color: #CCCCCC; 
+
+// własne zmienne tekst 
+$pw-font-family-body: 'Lato';
+$pw-font-family-secondary: 'Oswald';
+
+// Kolory Bootstrap 4 - sposób wjaki należy nadpisywać zmienne kolorów w bootstrap
+$theme-colors: (
+	"primary": $pw-accent-color
+);
+
+$gray-100: $pw-gray-100;
+$gray-200: $pw-gray-200;
+$gray-600: $pw-gray-600;
+$gray-800: $pw-gray-800;
+$gray-900: $pw-gray-900;
+
+
+// obramowania
+$border-radius:  0;
+$border-radius-lg: 0;
+$border-radius-sm:  0;
+
+// tekst
+
+$font-family-sans-serif: $pw-font-family-body;
+$headings-font-family: $pw-font-family-secondary;
+$headings-font-weight: 700;
+$font-size-base: .875rem;
+$line-height-base: 1.75;
+$font-size-sm: ($font-size-base * .75);
+$h2-font-size:  2.143rem;
+$h3-font-size:  1.375rem;
+$h4-font-size:  1rem;
+$h5-font-size:  .875rem;
