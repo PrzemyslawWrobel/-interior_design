@@ -1,0 +1,40 @@
+// górny wierz stopki
+.pw-footer-top {
+    position: relative;
+    padding: 80px 0 20px;
+    background: url('../images/bg/footer-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    &:after {
+        @include pw-bg-overlay($pw-black, .75);
+    
+    }
+}
+
+.pw-footer-top-content {
+    @include pw-relative-zindex;
+}
+
+.pw-footer-text {
+    font-size: .75rem;
+    color: $gray-600;
+}
+
+.pw-footer-p {
+    line-height: 2;
+}
+
+div {
+    background-color: lightgray;
+}
+
+
+
+.sd-color {
+    background-color: #fff;
+}
+
+p {
+    margin: 0px;
+    color: black;
+    border: solid black 1px;
+}

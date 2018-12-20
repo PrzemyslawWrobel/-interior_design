@@ -1,0 +1,22 @@
+// nakładka w tle
+
+@mixin pw-bg-overlay($color, $opacity) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    width: 100%;
+    content: "";
+    z-index: 0;
+    background: none repeat $color;
+    opacity: $opacity;
+}
+
+// pozycja relatywna i zwiększony z- index
+
+@mixin pw-relative-zindex(){
+    position: relative;
+    z-index: 1000;
+}

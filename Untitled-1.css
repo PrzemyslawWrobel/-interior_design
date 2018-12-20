@@ -1,0 +1,259 @@
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    bottom: 35px;
+    right: 15px;
+    left: 15px;
+    background: repeating-linear-gradient(black, black 15%, white 15%, white 30%);
+    background-attachment: fixed;
+    
+}
+
+.input-group-btn {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+#sd-container-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    color: #fff;
+    padding: 26px 13px 5px 20px;
+    font-weight: bold;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    text-shadow: none;
+    text-align: left;
+    font: helvetica, arial, sans-serif;
+}
+
+#sd-container-body {
+    background-color: white;
+    height: 100%;
+    background-size: 100% auto;
+}
+
+#sd-container-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: black;
+}
+
+
+h1, h2, h3, h4 {
+    margin: 5px
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p {
+    margin: 0px;
+    width: 100%;
+}
+
+.sd-margin {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sd-shadow {
+    box-shadow: 0 3px 10px rgba(0, 0, 1, 0.5);
+}
+
+.sd-header {
+    position: sticky;
+    top: 0;
+    top: 65px;
+    right: 15px;
+    left: 15px;
+}
+
+.sd-margin-h {
+   min-height: 100%;
+   overflow-y: scroll;
+   height: 100%;
+
+}
+
+/*
+  HEADER  
+.sd-header-margin {
+
+
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.sd-margin-fixed {
+    margin-top: 220px;
+}
+
+
+
+*/
+.sd-padding {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.sd-row2 {
+    min-height: 100px;
+}
+
+.sd-font-weight-bold {
+    font-weight: 700;
+}
+
+.sd-header-row3 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: lightgray;
+}
+
+.sd-icon {
+    vertical-align: middle;
+    margin: 15px 0px;
+}
+
+
+
+/*Przyciski */
+
+
+.btn-primary, .active {
+    background-color: lightgray;
+    color: black;
+    font-size: 1rem;
+    padding: 6px 2px 6px 2px;
+    border: 1px solid lightgray;
+}
+
+    .btn-primary:hover {
+        background-color: darkgray;
+        color: white;
+        border: 1px solid darkgray;
+    }
+
+    .active:hover {
+        color: white;
+    }
+
+
+.active {
+    background-color: darkred;
+    color: white;
+    cursor: auto;
+    border: 1px solid darkred;
+}
+
+
+
+.sd-btn {
+    padding: 5px;
+}
+/*koniec przyciski*/
+
+/*BODY*/
+/*.sd-body {
+    overflow-y: scroll;
+   
+}*/
+
+/*TABLE*/
+
+.table > thead > tr > th, .table > tbody > tr > th,
+.table > tfoot > tr > th, .table > thead > tr > td,
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 7px 4px 8px 4px;
+    text-align: center;
+}
+
+.table > thead > tr > th {
+    box-shadow: inset 10px 1px rgba(0,0,0,0.4);
+}
+
+.table > tfoot > tr > th {
+    background-color: lightgray;
+}
+
+.table {
+    margin-bottom: 0px;
+}
+
+
+.sd-table-padding-left {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.sd-table-padding-right {
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+
+/*FOOTER*/
+.sd-footer-fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    left: 15px;
+}
+.sd-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+}
+
+.sd-footer-row2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: yellow;
+}
+
+.sd-text-left {
+    margin-left: 10px;
+}
+/*
+.sd-footer-margin {
+    margin-bottom: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+*/
+    
+
+
