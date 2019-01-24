@@ -20,3 +20,9 @@
     position: relative;
     z-index: 1000;
 }
+
+// rozmiar
+@mixin pw-size($w, $h) {
+	width: $w;
+	height: $h;
+}

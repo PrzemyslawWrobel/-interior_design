@@ -23,18 +23,30 @@
     line-height: 2;
 }
 
-div {
-    background-color: lightgray;
+// kolumna kontakt
+.pw-footer-contact-list {
+	margin-bottom: .75rem;
 }
 
-
-
-.sd-color {
-    background-color: #fff;
+.pw-footer-contact-item {
+	padding: .2rem 0;
 }
 
-p {
-    margin: 0px;
-    color: black;
-    border: solid black 1px;
+.pw-social-box {
+	@include pw-size(26px, 26px);
+}
+
+// kolumna newsletter
+.pw-newsletter-form-group {
+	margin-bottom: .75rem;
+}
+
+.pw-newsletter-form-control {
+	height: 1.55rem;
+	font-size: .75rem;
+}
+
+.pw-newsletter-btn {
+	padding: .25rem 1rem;
+	font-size: .625rem;
 }
