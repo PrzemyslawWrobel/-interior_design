@@ -1,0 +1,38 @@
+.pw-services-box {
+	margin-bottom: 40px;
+}
+
+.pw-services-box-top {
+	margin-bottom: 1.4rem;
+}
+
+.pw-services-box-img {
+	margin: 10px 20px 0 10px;
+	@include pw-relative-zindex;
+}
+
+.pw-services-box-title {
+	margin-top: 1.75rem;
+}
+
+.pw-services-box-header {
+	font-size: 1.125rem;
+	line-height: 1.2;
+	@include pw-font-light-secondary;
+}
+
+.pw-services-box-text {
+	line-height: 2;
+}
+
+.pw-services-box-shadow {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	background-color: rgba($pw-black, .075);
+	@include pw-size(85px, 85px);
+}
+
+.pw-services-box-active {
+	background-color: rgba($pw-accent-color, 1);
+}
