@@ -26,3 +26,14 @@
 	width: $w;
 	height: $h;
 }
+
+// tekst 300 secondary
+@mixin pw-font-light-secondary {
+	font-weight: 300;
+	font-family: $pw-font-family-secondary;
+}
+
+// podstawowe przejscie
+@mixin pw-basic-transition {
+	transition: all .25s ease-in-out;
+}

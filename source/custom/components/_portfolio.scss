@@ -1,0 +1,66 @@
+.pw-portfolio-box {
+	position: relative;
+}
+
+.pw-portfolio-box-text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 65%;
+	margin: 0 auto;
+	z-index: 1000;
+	transform: translateY(-50%);
+}
+
+.pw-portfolio-box-title {
+	margin-bottom: 1.2rem;
+	font-size: 1.55rem;
+	letter-spacing: .2rem;
+}
+
+.pw-portfolio-box-img {
+	max-width: 540px;
+}
+
+.pw-portfolio-box.featured {
+	max-width: 540px;
+}
+
+.pw-portfolio-img-overlay {
+	&:after {
+		@include pw-bg-overlay($pw-accent-color, .8);	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
